@@ -20,7 +20,6 @@ def permute(ip, op):
 def main():
 	try:
 		ip = str(sys.argv[1])
-		#ip = "senseiesnes@proton.me"
 		permute(ip, "")
 	except IndexError:
 		print("You did not specify an email")
